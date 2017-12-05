@@ -1,0 +1,34 @@
+/*element*/
+li{}
+/*class*/
+.hello {}
+/*id*/
+#name {}
+/*start*/
+
+* {
+    border: 1px solid grey;
+}
+
+/*desendant*/
+
+li a {
+    color: green;
+}
+/*adjencent*/
+
+h4 + ul {
+    
+    border: 2px solid red;
+}
+/*attribute*/
+
+a[href="http://www.google.com"] {
+    background: gray;
+}
+
+/*nth*/
+
+li:nth-of-type(even) {
+    background: purple;
+}
